@@ -57,6 +57,17 @@ header {
          }
      }
 
+     button{
+           background-color: transparent;
+           padding: 10px;
+           color: white;
+           cursor: pointer;
+           display: none;
+           font-size: 15px;
+           border-radius: 5px;
+           border: 1px solid rgb(255, 255, 255);
+     }
+
 }
 
 section {
@@ -133,3 +144,100 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+@media (max-width:900px){
+
+     
+
+    body {
+        background: linear-gradient(to right, #000 , rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.541)), url('./img/background.png');
+        background-repeat: no-repeat;
+        background-size: 1300px;
+        background-position-x:-740px;
+        background-position-y:-65px;
+        overflow: hidden;
+    }
+     
+    main{
+         height: 100vh;
+         width: 100%;
+         padding: 30px 15px;
+    }
+    
+    header {
+
+         img{
+              width: 130px;
+              height: 30px;
+         }
+    
+         nav{
+            display: none;
+         }
+
+         button{
+            display: block;
+      }
+    
+    }
+
+    
+    
+    section {
+        margin-top: 20px;
+        height: 75vh;
+        position: relative;
+    
+        #conteudo1 {
+             position: absolute;
+             bottom: 10px;
+             width: 100%;
+    
+             h5{
+                font-size: 20px;
+             }
+    
+             h1{
+                font-size: 70px;
+             }
+    
+             h3{
+                 font-size: 25px;
+             }
+    
+             button {
+                width: 200px;
+                padding: 20px;
+                font-size: 15px;
+             }
+        }
+    
+        #conteudo2 {
+            display: none;
+       }
+    }
+    
+    
+    
+    footer {
+        margin-top: 30px;
+    }
+
+
+
+
+
+} /*Final MEDIA*/
